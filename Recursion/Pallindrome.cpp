@@ -2,6 +2,7 @@
 using namespace std;
 
 bool chkpalin(char s[], int i, int j){
+/*comment for checking github connection*/ 
     if(i>=j) return true;
     if(s[i]!=s[j]) return false;
     cout<<i<<" "<<j<<endl;

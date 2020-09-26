@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 void printpermute(string str, int i, int n){
-
     if(i==n-1){
         cout<<str<<endl;
         return;
